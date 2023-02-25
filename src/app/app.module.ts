@@ -26,9 +26,14 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+
+// Componetes do Projeto
+import { NavbarComponent } from './components/navbar/navbar.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -46,8 +51,9 @@ import { MatCardModule } from '@angular/material/card';
     MatRadioModule,
     MatInputModule,
     MatIconModule,
-    MatListModule ,
-    MatCardModule
+    MatListModule,
+    MatCardModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
