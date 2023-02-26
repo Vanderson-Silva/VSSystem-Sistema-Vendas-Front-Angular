@@ -1,3 +1,4 @@
+import { LoginComponent } from './components/login/login.component';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -5,6 +6,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+  {path:'login', component: LoginComponent},
   {
     path: '',component:NavbarComponent,children:[
       {path: 'home',component: HomeComponent},
