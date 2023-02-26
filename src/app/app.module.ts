@@ -32,6 +32,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ClienteListComponent } from './components/cliente/cliente-list/cliente-
     NavbarComponent,
     HomeComponent,
     HeaderComponent,
-    ClienteListComponent
+    ClienteListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
