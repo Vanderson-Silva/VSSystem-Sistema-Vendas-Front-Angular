@@ -7,10 +7,10 @@
  }
  
  .form {
-    width: 30rem;
-    height: auto;
+    width: 20rem;
+   
     margin: auto;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(53, 59, 80);
     padding: 4rem 1rem;
     border-radius: 1rem;
  }
@@ -24,7 +24,7 @@
  img {
     height: 10rem;
     width: 100%;
-    margin: 1.5rem auto 1.5rem auto;
+    margin: 0.5rem auto 0.5rem auto;
  }
  
  .full-width {
@@ -32,5 +32,6 @@
  }
 
  button {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
+    background-color: rgb(10, 57, 83);      
  }

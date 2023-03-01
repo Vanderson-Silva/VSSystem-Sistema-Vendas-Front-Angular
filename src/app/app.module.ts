@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Para trabalhar com formulários no Angular 12
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { FormControl, FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 // Para realizar requisições HTTP
 import { HttpClientModule } from '@angular/common/http';
@@ -61,6 +61,8 @@ import { LoginComponent } from './components/login/login.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
+    FormsModule,
+    ReactiveFormsModule    
    
   ],
   providers: [],
